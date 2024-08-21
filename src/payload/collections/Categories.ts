@@ -20,6 +20,11 @@ const Categories: CollectionConfig = {
       type: 'text',
       required: true,
     },
+    {
+      name: 'mediaRe',
+      type: 'relationship',
+      relationTo: 'media',   
+    },
   ],
 }
 
